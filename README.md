@@ -1,4 +1,4 @@
-# kernel_configs
+# linux_configs
 Linux kernel configs for computers I have known and used
 
 For now, I'll name the configs after the DMI strings of the PCs they're meant for.
