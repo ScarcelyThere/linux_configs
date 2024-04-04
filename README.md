@@ -11,11 +11,13 @@ build a kernel for yourself. In fact, rolling your own is likely better than the
 ## Presario_CQ57.config
 This is for a Compaq (now HP) Presario CQ57 laptop, powered by AMD's E-300 APU. Note
 this kernel was only tested with Alpine Linux. There are a few unclaimed devices
-reported by `lshw`, but most everything should work. Please note I have not yet built
-support for the webcam, but this is next on my list. 
+reported by `lshw`, but most everything should work.
 
-### To do:
-
+### Note:
+The Presario CQ57 carries an AMD Bobcat processor core as part of its E-300 APU, so
+I am using a patch to add specific support for that CPU in the build. This config
+assumes such a patch is available. I have not tried using this configuration with
+a kernel tree lacking said patch.
 
 ## Configs that are no longer updated
 
