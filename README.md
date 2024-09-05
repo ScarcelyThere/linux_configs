@@ -15,9 +15,8 @@ reported by `lshw`, but most everything should work.
 
 ### Note:
 The Presario CQ57 carries an AMD Bobcat processor core as part of its E-300 APU, so
-I am using a patch to add specific support for that CPU in the build. This config
-assumes such a patch is available. I have not tried using this configuration with
-a kernel tree lacking said patch.
+I am using a patch to add specific support for that CPU in the build. The specific
+patch is [here](https://github.com/graysky2/kernel_compiler_patch.git).
 
 ## Configs that are no longer updated
 
@@ -32,4 +31,3 @@ This is for a Toshiba Satellite C55-B5201 laptop. It's powered by a Bay Trail no
 Celeron processor and carries Intel HD Graphics (which are driven by the kernel's i915
 driver.) I no longer own this computer, so there will be no further changes to this
 config. A few built-in devices weren't included here.
-
