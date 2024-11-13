@@ -8,6 +8,13 @@ I've been using btrfs, so that's the only typical on-disk filesystem I've includ
 these kernels. You will likely want to change some of the configuration before you
 build a kernel for yourself. In fact, rolling your own is likely better than these.
 
+## Asus Transformer Mini
+This is for an Asus Transformer Mini (model T102H) and is very experimental. There's
+a lot enabled that probably doesn't need to be, but we're going to see what drivers
+bind to what devices and go from there. This hasn't been tested on the actual
+hardware yet. (The configuration is named because the computer is a Transformer that
+I am worried about corrupting.)
+
 ## Presario_CQ57.config
 This is for a Compaq (now HP) Presario CQ57 laptop, powered by AMD's E-300 APU. Note
 this kernel was only tested with Alpine Linux. There are a few unclaimed devices
