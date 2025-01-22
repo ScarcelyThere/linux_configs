@@ -4,9 +4,12 @@ Linux kernel configs for computers I have known and used
 For now, I'll name the configs after the DMI strings of the PCs they're meant for.
 I'll try to document each one separately.
 
-I've been using btrfs, so that's the only typical on-disk filesystem I've included in
-these kernels. You will likely want to change some of the configuration before you
-build a kernel for yourself. In fact, rolling your own is likely better than these.
+I've been using btrfs and bcachefs, so those are the only typical on-disk
+filesystems I've included in these kernels. FAT and ISO9660 are included as modules
+due to their popularity. You will likely want to change some of the configuration
+before you build a kernel for yourself. At minimum, add your preferred filesystem
+(or at minimum, EXT4.) Rolling your own kernel is likely better than these
+configurations.
 
 ## Asus Transformer Mini
 This is for an Asus Transformer Mini (model T102H) and is very experimental. There's
