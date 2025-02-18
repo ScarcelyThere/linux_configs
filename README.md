@@ -11,12 +11,11 @@ before you build a kernel for yourself. At minimum, add your preferred filesyste
 (or at minimum, EXT4.) Rolling your own kernel is likely better than these
 configurations.
 
-## Asus Transformer Mini
+## T102HA.config
 This is for an Asus Transformer Mini (model T102H) and is very experimental. There's
 a lot enabled that probably doesn't need to be, but we're going to see what drivers
-bind to what devices and go from there. This hasn't been tested on the actual
-hardware yet. (The configuration is named because the computer is a Transformer that
-I am worried about corrupting.)
+bind to what devices and go from there. We've still got more enabled than likely
+needs to be, but it's becoming functional.
 
 ## Presario_CQ57.config
 This is for a Compaq (now HP) Presario CQ57 laptop, powered by AMD's E-300 APU. Note
