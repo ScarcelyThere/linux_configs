@@ -4,7 +4,7 @@ Linux kernel configs for computers I have known and used
 ## Abandoned
 I don't use any of these computers anymore, with the exception of the T102HA (Asus
 Transformer Mini) and that now has its own project. It's available 
-[here](https:/github.com/ScarcelyThere/Asus_T102_Alpine).
+[here](/ScarcelyThere/Asus_T102_Alpine).
 
 For now, I'll name the configs after the DMI strings of the PCs they're meant for.
 I'll try to document each one separately.
